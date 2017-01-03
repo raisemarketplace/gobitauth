@@ -1,9 +1,9 @@
 package bitauth
 
 import (
-	"code.google.com/p/go.crypto/ripemd160"
 	secp256k1 "github.com/haltingstate/secp256k1-go"
-	"github.com/tonyhb/base58check"
+	base58 "github.com/tonyhb/base58check"
+	"golang.org/x/crypto/ripemd160"
 
 	"encoding/hex"
 	"math/big"
